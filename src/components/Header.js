@@ -5,9 +5,10 @@ const Header = () => {
   const navigateList = [
     { route: "/", name: "Trang chủ" },
     { route: "/contact", name: "Liên hệ với chúng tôi" },
-    { route: "/status", name: "Trạng thái XXX" },
+    { route: "/checkstatus", name: "Trạng thái XXX" },
     { route: "/login", name: "Đăng nhập" },
   ];
+
   return (
     <div>
       <div className="header-container">
