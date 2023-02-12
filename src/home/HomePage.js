@@ -2,6 +2,8 @@ import React from "react";
 import Header from "./../components/Header";
 import IMAGE_BANNER from "../asset/The-Reverie-Saigon-Exterior-Daytime-I-1920X1080-1.jpg";
 import { Link } from "react-router-dom";
+import Map from "../components/Map";
+import Footer from "./../components/Footer";
 
 const HomePage = () => {
   return (
@@ -29,6 +31,8 @@ const HomePage = () => {
           </div>
         </div>
       </div>
+      <Map />
+      <Footer />
     </>
   );
 };
